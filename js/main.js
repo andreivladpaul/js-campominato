@@ -27,7 +27,7 @@ switch (difficoltà) {
         var numeroInserito = parseInt(prompt('Inserisci un numero da 1 a 50 fino a quando non vinci'));
         for(var i = 0; i < 16; i++){
             arrayCM.push(randomNumber(1,50))
-           if(arrayCM.includes(randomNumber) && (numeriPc.indexOf(random) === -1)) arrayCM.push(random)
+           if(arrayCM.includes(randomNumber) && (arrayCM.indexOf(random) === -1)) arrayCM.push(random)
           };
           console.log(arrayCM);
           
@@ -51,7 +51,7 @@ switch (difficoltà) {
         var numeroInserito = parseInt(prompt('Inserisci un numero da 1 a 80 fino a quando non vinci'));
         for(var i = 0; i < 16; i++){
             arrayCM.push(randomNumber(1,80))
-           if(arrayCM.includes(randomNumber) && (numeriPc.indexOf(random) === -1)) arrayCM.push(random)
+           if(arrayCM.includes(randomNumber) && (arrayCM.indexOf(random) === -1)) arrayCM.push(random)
           };
           console.log(arrayCM);
           
@@ -75,7 +75,7 @@ switch (difficoltà) {
         var numeroInserito = parseInt(prompt('Inserisci un numero da 1 a 100 fino a quando non vinci'));
         for(var i = 0; i < 16; i++){
             arrayCM.push(randomNumber(1,100))
-           if(arrayCM.includes(randomNumber) && (numeriPc.indexOf(random) === -1)) arrayCM.push(random)
+           if(arrayCM.includes(randomNumber) && (arrayCM.indexOf(random) === -1)) arrayCM.push(random)
           };
           console.log(arrayCM);
           
@@ -99,7 +99,7 @@ switch (difficoltà) {
   
   for(var i = 0; i < 16; i++){
     arrayCM.push(randomNumber(1,100))
-   if(arrayCM.includes(randomNumber) && (numeriPc.indexOf(random) === -1)) arrayCM.push(random)
+   if(arrayCM.includes(randomNumber) && (arrayCM.indexOf(random) === -1)) arrayCM.push(random)
   };
   console.log(arrayCM);
   
